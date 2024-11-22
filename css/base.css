@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#container{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 35px;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+}
+
+/* Tudo até aqui é a base do css de todas as páginas */
+
+.login-container {
+    background-color: #8e45a06c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+.login-container h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-container input {
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #8e45a06c;
+}
+
+.login-container input::placeholder {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-size: large;
+    opacity: 1;
+
+}  
+
+.login-container button {
+    width: 25%;
+    padding: 10px;
+    background-color: #A41FD9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #A41FD9;
+}
+
+
+
+
