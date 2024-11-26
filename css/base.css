@@ -54,7 +54,8 @@ nav ul li a:hover{
     border-radius: 10px;
     width: 300px;
     margin: 0 auto;
-
+    margin-top: 10%;
+    margin-bottom: 50px;
 }
 
 .login-container h2 {
@@ -64,7 +65,7 @@ nav ul li a:hover{
 }
 
 .login-container input {
-    width: 80%;
+    width: 82%;
     padding: 15px;
     margin: 10px;
     border: none;
@@ -74,16 +75,17 @@ nav ul li a:hover{
 }
 
 .login-container input::placeholder {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     font-family: "Rubik", sans-serif;
     font-size: large;
     opacity: 1;
-
 }  
 
 .login-container button {
-    width: 25%;
+    margin-top: 10px;
+    margin-left: 35%;
+    width: 30%;
     padding: 10px;
     background-color: #A41FD9;
     color: white;
@@ -94,9 +96,73 @@ nav ul li a:hover{
 }
 
 .login-container button:hover {
-    background-color: #A41FD9;
+    background-color: #d41FD9;
 }
 
+/* Até aqui está o estilo do formulário de login */
 
+.contato-container {
+    background-color: #8e45a06c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
 
+.contato-container h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+.contato-container input {
+    width: 82%;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #8e45a06c;
+}
+
+.contato-container textarea {
+    max-width: 80%;
+    min-width: 80%;
+    max-height: 40vh;
+    width: 80%;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #8e45a06c;
+}
+
+.contato-container input::placeholder {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-size: large;
+    opacity: 1;
+}  
+
+.contato-container button {
+    margin-top: 10px;
+    margin-left: 35%;
+    width: 30%;
+    padding: 10px;
+    background-color: #A41FD9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contato-container button:hover {
+    background-color: #d41FD9;
+}
+
+/* Até aqui é o estilo do formulário de contato */
