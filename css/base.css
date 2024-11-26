@@ -166,3 +166,62 @@ nav ul li a:hover{
 }
 
 /* Até aqui é o estilo do formulário de contato */
+
+.cadastro-quiz-container {
+    background-color: #8e45a06c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cadastro-quiz-container h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cadastro-quiz-container input {
+    width: 82%;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ae82b994;
+}
+
+.cadastro-quiz-container input::placeholder {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-size: large;
+    opacity: 1;
+}  
+
+.cadastro-quiz-container button {
+    margin-top: 10px;
+    margin-left: 35%;
+    width: 30%;
+    padding: 10px;
+    background-color: #A41FD9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cadastro-quiz-container button:hover {
+    background-color: #d41FD9;
+}
+
+.pergunta-quiz {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+

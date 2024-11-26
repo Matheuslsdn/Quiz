@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/base.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Quiz</title>
+</head>
+<body>
+    <nav id="container">
+        <div class="container-box1">
+            <h1>Quiz.</h1>
+        </div>
+        <div class="container-box2">
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="contato.html"><b>Contato</b></a></li>
+                <li><a href="login.html"><b>Login</b></a></li>
+            </ul>
+        </div>
+        <div class="container-box3"></div>
+    </nav>
+    <div class="cadastro-quiz-container">
+        <h2>Cadastre um Quiz</h2>
+        <form action="" method="POST">
+            <input placeholder="Nome do quiz" type="text" id="nome" name="nome" required>
+            <div class="pergunta-quiz">
+                <!-- {% for pergunta in perguntas %} -->
+                <input placeholder="Pergunta" type="text" id="pergunta" name="pergunta" required>
+                <input placeholder="Resposta 1" type="text" id="resposta-1" name="resposta-1" required>
+                <input placeholder="Resposta 2" type="text" id="resposta-2" name="resposta-2" required>
+                <input placeholder="Resposta 3" type="text" id="resposta-3" name="resposta-3" required>
+                <input placeholder="Resposta 4" type="text" id="resposta-4" name="resposta-4" required>
+                <input placeholder="Resposta 5" type="text" id="resposta-5" name="resposta-5" required>
+                <!-- {% endfor %} -->
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
